@@ -1,0 +1,39 @@
+*
+body{
+    background-image: url("https://www.jakpost.travel/wimages/large/49-495528_hd-wallpaper-rain-drops.jpg");
+    font-family: sans-serif;
+}
+header{
+    background-size: cover;
+    position: relative;
+    display: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+.picture img{
+    width: 500px;
+    border-radius: 50%;
+
+}
+nav{
+    background-color: blue;
+}
+ul{
+    float:right;   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+.subtitle h1{
+    font-size: 30px;
+    margin: 60px;
+    color:blue;
+    text-align: center;
+}
