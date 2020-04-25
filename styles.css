@@ -3,33 +3,31 @@ body{
     background-image: url("https://www.jakpost.travel/wimages/large/49-495528_hd-wallpaper-rain-drops.jpg");
     font-family: sans-serif;
 }
-header{
-    background-size: cover;
-    position: relative;
-    display: fixed;
-    background-position: center;
-    overflow: hidden;
-}
+
 .picture img{
     width: 500px;
     border-radius: 50%;
-
+    align-items: center;
+    margin-left: 60vh;
+    margin-right: 30vh;
 }
-nav{
-    background-color: blue;
+ nav ul{
+     background-color: cadetblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-ul{
-    float:right;   
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 5px 15px;
-}
-ul li a{
+li a{
+    float: right;
     text-decoration: none;
-    color: blue;
-    font-size: 15px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 14px;
+}
+li a:hover{
+    background-color: white;
 }
 .subtitle h1{
     font-size: 30px;
