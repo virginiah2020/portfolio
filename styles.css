@@ -18,20 +18,47 @@ body{
     padding: 0;
     overflow: hidden;
 }
-li a{
-    float: right];
+li a{ 
     text-decoration: none;
     color: black;
     display: inline-block;
     text-align: center;
     padding: 12px 14px;
+    float: right;
 }
 li a:hover{
     background-color: white;
 }
-.subtitle h1{
+.subtitle {
     font-size: 30px;
-    margin: 60px;
+   
     color:blue;
     text-align: center;
+
+}
+.subtitle p{
+    
+    font-style: italic;
+    font-size: 20px;
+}
+ .contacts{
+    clear: both;
+    align-items: center;
+}
+em{
+    color: darkblue;
+}
+#about{
+    width: 40%;
+    padding: 5px;
+    
+    float: left;
+}
+#skills{
+    width: 50%;
+    float: right;
+
+}
+.footer{
+    justify-content: center;
 }
