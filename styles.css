@@ -17,24 +17,26 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
+ }
+nav  li{
+    float: right;
+
+ }
 li a{ 
+    
     text-decoration: none;
     color: black;
     display: inline-block;
     text-align: center;
     padding: 12px 14px;
-    float: right;
 }
 li a:hover{
     background-color: white;
 }
 .subtitle {
     font-size: 30px;
-   
     color:blue;
     text-align: center;
-
 }
 .subtitle p{
     
@@ -43,22 +45,29 @@ li a:hover{
 }
  .contacts{
     clear: both;
+    justify-content: center;
     align-items: center;
+    background-color: darkcyan;
+    text-align: center;
 }
+.search-sign{
+    text-align: center;
+    float: right;
+    justify-content: space-between;
+}
+
 em{
     color: darkblue;
 }
 #about{
     width: 40%;
     padding: 5px;
-    
     float: left;
 }
 #skills{
     width: 50%;
-    float: right;
-
+    clear: both;
 }
-.footer{
-    justify-content: center;
-}
+/* #skills ul li{
+    float: left;
+} */
